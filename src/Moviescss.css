@@ -1,0 +1,29 @@
+.movie-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-container > h2 {
+  font-size: 2.5rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 1em;
+}
+.movie-container ul {
+  list-style: none;
+}
+
+.movie {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
